@@ -1,5 +1,5 @@
 header {
-  height: 59px;
+  height: 60px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -12,7 +12,10 @@ header {
   right: 0;
   z-index: 100;
 
-  border-bottom: 1px solid rgb(228, 228, 228);
+  border-bottom: 1px solid;
+  border-bottom-color: var(--border-color);
+
+  background-color: white;
 }
 
 .middle-section {

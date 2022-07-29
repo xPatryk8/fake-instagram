@@ -1,4 +1,17 @@
+:root {
+  --border-color: rgb(219, 219, 219);
+}
+
+body {
+  background-color: rgb(250, 250, 250);
+}
+
 button {
   background-color: white;
   border: none;
+}
+
+p {
+  font-family: Roboto;
+  font-weight: bold;
 }
